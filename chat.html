@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="verificarLogin(); carregarContatos();">
+    <script src="function.js"></script>
+
+    <header>
+        <img src="images-removebg-preview.png" width="60" alt="Logo ChatIF" class="header-logo">
+        <h1>ChatIF</h1>
+        <button class="btn-logout" onclick="logout()">SAIR</button>
+    </header>
+
+    <main>
+        <h2>Chats</h2>
+
+        <div class="chat-controls" id="chat-controls">
+           
+        </div>
+
+        <div id="AreaDoChat" class="chat-area"></div>
+
+        <div class="msg-box">
+            <input type="text" id="msg" placeholder="Escreva uma mensagem...">
+            <button class="btn-enviar" onclick="enviarMsg()">Enviar</button>
+        </div>
+    </main>
+
+    <footer>
+        <img src="images-removebg-preview.png" width="80" alt="Logo IFRN">
+        <p><strong>IFRN Campus Santa Cruz</strong></p>
+        <p>Trabalho de Programação para Internet</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+        <hr>
+        <p><a href="desenvolvedores.html" style="color: #14c7bb; text-decoration: none; font-weight: bold;">Ver página de Desenvolvedores</a></p>
+    </footer>
+
+    
+</body>
+</html>
